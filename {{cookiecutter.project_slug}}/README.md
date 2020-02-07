@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}.png?branch=master)](https://travis-ci.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }})
+
 {% set is_open_source = cookiecutter.open_source_license != 'Not open source' -%}
 # {{ cookiecutter.project_name }}
 
